@@ -84,8 +84,8 @@ function GetProjectsInOrg {
     return $response.data
 }
 
-# login if needed
-#gh auth login
+# login if needed, but make sure you are using the right scope for projectsV2
+#gh auth login --scopes "project"
 
 # get old id and then convert to new id
 $id = GetLoginId-Old
