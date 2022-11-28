@@ -1,0 +1,1 @@
+Collection of GraphQL queries in the `/scripts` folder.
